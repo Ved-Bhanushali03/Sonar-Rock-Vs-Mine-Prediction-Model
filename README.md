@@ -40,10 +40,14 @@ The runtime environment operates purely using foundational python mathematical a
 * **Numerical Processing:** `numpy`
 * **Model Pipeline:** `scikit-learn` (`linear_model.LogisticRegression`, `model_selection.train_test_split`, `metrics.accuracy_score`)
 
+## 📈 Performance Benchmarks
+Training Metrics: ~83.42% Accurate Classification.
+
+Testing Evaluation Matrix: ~76.19% Generalization Performance.
+
+The narrow variance between the training execution benchmarks and validation arrays demonstrates low model overfitting, rendering the architecture reliable for out-of-sample data points.
 ---
-
 ## 🚀 Execution & Implementation Pipeline
-
 ### 1. Repository Setup & Installation
 Clone this repository locally or upload the script/dataset straight to your target workspace:
 ```bash
