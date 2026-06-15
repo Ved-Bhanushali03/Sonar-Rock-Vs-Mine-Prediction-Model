@@ -26,7 +26,7 @@ By analyzing specific signal patterns across 60 discrete frequency bands, the mo
 
 ## 📊 Dataset Profile
 The architecture processes structured `.csv` frequency matrix configurations consisting of:
-* **Instances:** 208 recorded signal responses.
+* **Instances:** 208 recorded signal responses present.
 * **Features:** 60 continuous numeric attributes representing energy integration across normalized frequency bands (0.0 to 1.0).
 * **Target Classification:** Binary structural labels (`M` = Mine, `R` = Rock).
 * **Class Balance:** 111 Mine profiles, 97 Rock profiles (optimized, balanced class weights).
