@@ -14,6 +14,7 @@ Naval vessels and submarines rely heavily on Sound Navigation and Ranging (SONAR
 
 By analyzing specific signal patterns across 60 discrete frequency bands, the model executes a binary classification task to determine whether an anomaly is a harmless geological formation (Rock) or an explosive threat (Mine).
 
+
 ### Key Architectural Flow:
 1. **Data Ingestion & In-Memory DataFraming** via `Pandas`
 2. **Statistical Profiling & Mean Matrix Separation**
